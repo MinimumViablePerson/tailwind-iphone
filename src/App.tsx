@@ -16,11 +16,11 @@ function App () {
   }, [])
 
   return (
-    <div className='grid place-content-center h-[100vh] bg-[url(./bg-2.jpg)] bg-cover bg-center'>
+    <div className='grid place-content-center h-[100vh] bg-[url(./os-bg.jpeg)] bg-cover bg-center'>
       <div className='scale-[1.4] bg-black h-[147.5mm] w-[71.5mm] rounded-[2rem] overflow-hidden border-8 border-black relative grid justify-items-center text-black/60'>
         <div className='bg-black w-32 h-5 absolute rounded-b-3xl'></div>
 
-        <div className='bg-[url(./bg.jpg)] h-full w-full bg-center bg-cover grid content-start grid-rows-[auto_auto_auto_auto_auto_1fr_auto]'>
+        <div className='bg-[url(./phone-bg.jpg)] h-full w-full bg-center bg-cover grid content-start grid-rows-[auto_auto_auto_auto_auto_1fr_auto]'>
           <div className='grid pt-2 px-2 grid-flow-col justify-between'>
             <span className='text-[0.6rem] font-medium'>EE WiFiCall</span>
             <span className='grid gap-[0.1rem] justify-items-center'>
